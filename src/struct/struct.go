@@ -4,7 +4,7 @@ import "fmt"
 
 
 //声明一个新的类型
-type person struct{
+type person struct {
 	name string
 	age int
 }

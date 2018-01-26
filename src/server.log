@@ -1,0 +1,4 @@
+[GIN] 2018/01/25 - 16:31:19 | 200 |     118.004µs |             ::1 | GET      /welcome?lastname=fasdfas
+[GIN] 2018/01/25 - 16:31:26 | 404 |       1.223µs |             ::1 | GET      /user/neil
+[GIN] 2018/01/25 - 16:31:46 | 404 |       1.117µs |             ::1 | GET      /user?firstname=fasd&lastname=tewrtew
+[GIN] 2018/01/25 - 16:32:11 | 200 |       16.19µs |             ::1 | GET      /welcome?firstname=fasd&lastname=tewrtew

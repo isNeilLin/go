@@ -19,9 +19,12 @@ func main() {
 	x, y := <-c, <-c //receive from c
 	fmt.Println(x,y,x+y)
 
-	ch := make(chan int, 2) //指定channel的缓冲大小
+	ch := make(chan int, 3) //指定channel的缓冲大小
 	ch <- 1
 	ch <- 2
 	fmt.Println(<-ch)
+	ch <- 3
+	fmt.Println(<-ch)
 	fmt.Println(<-ch)
 }
+
